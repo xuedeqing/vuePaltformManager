@@ -1,0 +1,67 @@
+.innercontent {
+  float: left;
+  background: #fff ;
+  width: 88%;
+  height: 100%;
+}
+// 内页头部
+.topbar {
+    height: 76px;
+    border-bottom: 1px solid #d1dbe5;
+    .shortline {
+        display: block;
+        float: left;
+        width: 4px;
+        height: 16px;
+        background: #20a0ff;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .title {
+        line-height: 76px;
+        font-size: 16px;
+        color: #1f2d3d;
+        font-family: "MicrosoftYaHei";
+    }
+    .el-button--default {
+        margin-left: 15px;
+    }
+    .addsort {
+        float: right;
+        margin-top: 22px;
+    }
+}
+// 条件搜索
+.searchbox {
+    height: 66px;
+    padding-top: 15px;
+}
+// 分页部分
+.paginationblock{
+  margin-top: 14px;
+}
+.tablebox{
+  height: 70%;
+  .el-table{
+    max-height: 100%;
+    overflow-y: scroll;
+  }
+}
+.blue{
+  color:#409EFF;
+  cursor: pointer;
+}
+.red{
+  color: #FA5555;
+  cursor: pointer;
+}
+.green{
+  color: #13CE66;
+  cursor: pointer;
+}
+.el-table::before {
+  height: 0;
+}
+.el-table{
+  border:1px solid #dfe6ec;
+}
